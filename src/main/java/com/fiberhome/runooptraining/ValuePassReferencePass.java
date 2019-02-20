@@ -9,6 +9,10 @@ import java.util.List;
  * reference url:https://blog.csdn.net/johnson_moon/article/details/54094655
  * Java编程中，当对象作为参数传递给方法时候，是按引用传递的，但是有的人会说这实质上是按值传递的。
  * 其实两者说的都不错，只是理解的方式不一样罢了，二者的原理其实是一样的。
+ * 在Java中，引用类型的变量非常类似于C/C++的指针。引用类型指向一个对象，指向对象的变量是引用变量。
+ * 这些变量在声明时被指定为一个特定的类型，比如 Employee、Puppy 等。变量一旦声明后，类型就不能被改变了。
+ * 对象、数组都是引用数据类型。所有引用类型的默认值都是null。一个引用变量可以用来引用任何与之兼容的类型。
+ * 例子：Site site = new Site("Runoob")。
  */
 
 public class ValuePassReferencePass {
