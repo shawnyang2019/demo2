@@ -53,6 +53,7 @@ public class Person extends Animal implements Calculator, Englishable {
 	 * @param n 名称
 	 */
 	public void setName(String n) {
+		//表示把输入值赋值给当前这个变量.name
 		this.name = n;
 	}
 

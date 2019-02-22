@@ -10,6 +10,7 @@ public class Demo {
         Person xww = new Person();
         xww.setHeight(30);
         xww.name = "AAA";
+        //setName方法的作用是吧输入的向魏伟这个入参值赋值给当前这个对象的也就是xww.name,也就是xww.name="向魏伟"
         xww.setName("向魏伟");
         System.out.println(xww.getName());
         System.out.println(xww.getHeight());
