@@ -17,4 +17,8 @@ public abstract class Animal {
     }
 
     protected abstract String skin();
+
+    public void testOverride(){
+        System.out.println("animal");
+    }
 }

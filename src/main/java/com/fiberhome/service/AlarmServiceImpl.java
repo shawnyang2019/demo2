@@ -2,7 +2,7 @@ package com.fiberhome.service;
 
 import org.springframework.stereotype.Service;
 
-@Service("alarmServiceImpl")
+@Service
 public class AlarmServiceImpl implements IAlarmService {
     @Override
     public boolean report(String alarmContent) {

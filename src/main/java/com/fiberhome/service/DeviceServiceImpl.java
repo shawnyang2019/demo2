@@ -1,5 +1,8 @@
 package com.fiberhome.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class DeviceServiceImpl  implements IDeviceService{
 
 

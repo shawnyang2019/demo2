@@ -7,7 +7,7 @@
     <!--keyProperty=""   useGeneratedKeys=""  timeout="20000">-->
     <!--<update  id="insertAuthor"  parameterType="domain.blog.Author" flushCache="true"  statementType="PREPARED"  timeout="20000">-->
     <!--<delete  id="insertAuthor"  parameterType="domain.blog.Author"  flushCache="true"  statementType="PREPARED"  timeout="20000">-->
-    <!--id:在命名空间中唯一的标识符，可以被用来引用这条语句。-->
+    <!--id:在命名空间中唯一的标识符，可以被用来引用这条语句。相当于引用语句中的方法名-->
     <!--parameterType:将会传入这条语句的参数类的完全限定名或别名。-->
     <!--flushCache将其设置为 true，不论语句什么时候被调用，都会导致缓存被清空。默认值： false。-->
     <!--resultType:从这条语句中返回的期望类型的类的完全限定名或别名。注意集合情形，那应该是集合可以包含的类型，而不能是集合本身。使用 resultType 或 resultMap，但不能同时使用。

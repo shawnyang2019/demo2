@@ -8,52 +8,52 @@ import java.io.IOException;
  */
 public class ThreadDemo {
 
-    public static void main(String[] args) {
-        ThreadDemo demo = new ThreadDemo();
-        demo.test();
-    }
+	public static void main(String[] args) {
+		ThreadDemo demo = new ThreadDemo();
+		demo.test();
+	}
 
-    public void test(){
-        Runnable task = new Runnable() {
-            @Override
-            public void run() {
-                while(true){
-                    System.out.println("+++");
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
+	public void test() {
+		Runnable task = new Runnable() {
+			@Override
+			public void run() {
+				while (true) {
+					System.out.println("+++");
+					try {
+						Thread.sleep(1000);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
 
-            }
-        };
-        Thread t1 = new Thread(task);
-        t1.start();
-        System.out.println("main");
+			}
+		};
+		Thread t1 = new Thread(task);
+		t1.start();
+		System.out.println("main");
 
+		try {
+			System.in.read();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-        try {
-            System.in.read();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+	}
 
-    }
+	public void test2() {
+		// 子类的对象声明为接口，向上转型，体现了面向接口编程的思想
+		Runnable task = new PrintTask();
+		// 新建一个线程
+		Thread t1 = new Thread(task);
+		// 启动这个线程
+		t1.start();
+		System.out.println("main");
 
+		try {
+			System.in.read();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-    public void test2(){
-        Runnable task = new PrintTask();
-        Thread t1 = new Thread(task);
-        t1.start();
-        System.out.println("main");
-
-
-        try {
-            System.in.read();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }
+	}
 }

@@ -17,6 +17,7 @@ import java.util.List;
 public class MyBatisTestEmployee {
     @Test
     public void test1() {
+        //创建一个会话工厂
         String resource = "mybatis/mybatis-config-test.xml";
         Reader reader = null;
         try {
@@ -26,6 +27,7 @@ public class MyBatisTestEmployee {
         }
         SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(reader);
         SqlSession session = sessionFactory.openSession(true);
+        //与dao接口进行会话
         UserDao userDao = session.getMapper(UserDao.class);
         EmployeeDao employeeDao = session.getMapper(EmployeeDao.class);
 
