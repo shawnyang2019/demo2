@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fiberhome.dao.EmployeeDao">
+
+    <select id="getEmployeeById" parameterType="long" resultType="employee">
+        select id,username,salary
+        from `employee`
+		where id = #{id}
+	</select>
+
+    <select id="getEmployeeByUsername" parameterType="string" resultType="employee">
+        select id,username,salary
+        from `employee`
+        where username = #{0}
+    </select>
+
+    <insert id="addEmployee" parameterType="employee" useGeneratedKeys="true" keyProperty="id">
+        insert into `employee`
+        ( id,username,salary)
+        values
+        (
+        #{id},
+        #{username},
+        #{salary}
+        )
+    </insert>
+
+    <delete id="deleteEmployee" parameterType="long">
+		delete from `employee` where id=#{employeeId}
+	</delete>
+
+    <update id="updateEmployee">
+        update `employee`
+        <trim prefix="set" suffixOverrides=",">
+            <if test="username != null ">username=#{username},</if>
+            <if test="salary != null ">salary=#{salary},</if>
+
+        </trim>
+        where id=#{id}
+    </update>
+
+
+</mapper>

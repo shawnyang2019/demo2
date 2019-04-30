@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--xmlns:xml namespace xml命名空间及对应的schema约束文件-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
+			">
+
+    <!-- 开启扫描功能-->
+    <context:component-scan base-package="com.fiberhome"/>
+    <!-- 开启切面功能 -->
+    <aop:aspectj-autoproxy/>
+
+
+    <!--<bean  id="calculate" class="com.fiberhome.service.CalculateServiceImpl"></bean>-->
+
+    <bean id="deviceServiceImpl" class="com.fiberhome.service.DeviceServiceImpl" />
+
+    <!--<bean  id="reportService" class="com.fiberhome.service.aop.ReportServiceImpl"></bean>-->
+
+    <!--<bean id="timeAdvice"  class="com.fiberhome.service.aop.TimeAdvice"></bean>-->
+
+    <aop:config>
+        <!--AOP的ref需要与增强方法所在类的对象名称一致-->
+        <aop:aspect id="time" ref="timeAdvice">
+            <aop:pointcut id="pointcut" expression="execution(* com.fiberhome.service.AlarmServiceImpl.*(..))" />
+            <aop:before method="printCurrentTime" pointcut-ref="pointcut" />
+            <aop:after method="printCurrentTime2" pointcut-ref="pointcut" />
+        </aop:aspect>
+    </aop:config>
+</beans>
