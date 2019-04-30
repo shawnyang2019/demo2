@@ -7,5 +7,7 @@ package githubtest;
 public class GithubTest3 {
     public static void main(String[] args) {
         System.out.println("shawn is the best");
+        System.out.println("xiumei is the best");
+
     }
 }
