@@ -10,6 +10,8 @@ public class GithubTest3 {
         System.out.println("xiumei is the best");
         System.out.println("diandian is the best");
         System.out.println("yangshiying is the best");
+        System.out.println("yangshiying is the best2");
+        System.out.println("yangshiying is the best3");
 
     }
 }
