@@ -9,7 +9,9 @@
     <bookmark url="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java" line="691" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae65884-22eb-4999-ab19-4ea27402d700" name="Default Changelist" comment="" />
+    <list default="true" id="4ae65884-22eb-4999-ab19-4ea27402d700" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mavendemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -511,7 +513,7 @@
     <property name="SearchEverywhereHistoryKey" value="Databas&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/util/Collections.class&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Arrays.java&#10;random&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Random.java&#10;map&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Map.java&#10;set&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Set.java&#10;Stringbu&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/lang/StringBuffer.class&#10;String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java&#10;string&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java&#10;Integer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/lang/Integer.class&#10;Inte&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/lang/Integer.class&#10;Number&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/lang/Number.class&#10;stri&#9;FILE&#9;jar://D:/java package/apache-maven-3.3.9/.m2/repository/org/apache/activemq/activemq-all/5.15.3/activemq-all-5.15.3.jar!/META-INF/services/org/apache/camel/dataformat/string&#10;scan&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/util/Scanner.class&#10;httpRequestR&#9;null&#9;null&#10;Application&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/util/List.class&#10;collection&#9;PSI&#9;JAVA://java.util.Spliterators.IteratorSpliterator#collection&#10;Collection&#9;PSI&#9;JAVA://org.springframework.core.style.DefaultValueStyler#COLLECTION&#10;iterator&#9;null&#9;null&#10;OBJECT&#9;PSI&#9;JAVA://java.lang.Object&#10;toString&#9;PSI&#9;JAVA://com.fiberhome.runooptraining.ToString&#10;HelloWorld&#9;FILE&#9;file://D:/oschina/demo/src/main/java/important/HelloWorld.java&#10;readline&#9;FILE&#9;file://D:/oschina/demo/src/main/java/important/fileio/BRReadLines.java&#10;Objec&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Object.java&#10;Obje&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Objects.java&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;buffered&#9;PSI&#9;JAVA://com.fiberhome.runooptraining.BufferedRead&#10;outputstream&#9;PSI&#9;JAVA://com.fiberhome.runooptraining.FileinputStreamAndOutputStream&#10;Log&#9;PSI&#9;JAVA://com.fiberhome.service.aop.LogAdvice&#10;BeanDefi&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;Jd&#9;PSI&#9;JAVA://com.fiberhome.demo.jdbc.JdbcDemo&#10;Exception&#9;PSI&#9;JAVA://com.fiberhome.demo.exception.BizException&#10;Error&#9;PSI&#9;JAVA://java.lang.Error&#10;OutOf&#9;PSI&#9;JAVA://java.lang.OutOfMemoryError&#10;Empl&#9;FILE&#9;file://D:/oschina/demo/src/main/java/com/fiberhome/demo/autowiredtest/Employee.java&#10;Byte&#9;PSI&#9;JAVA://java.lang.Byte&#10;BYTE&#9;PSI&#9;JAVA://java.awt.TexturePaintContext.Byte&#10;bufferedReader&#9;PSI&#9;JAVA://java.nio.file.Files#newBufferedReader&#10;NullPointerException&#9;PSI&#9;JAVA://java.lang.NullPointerException&#10;jdbc.&#9;FILE&#9;file://D:/oschina/demo/src/main/resources/jdbc.properties&#10;log&#9;FILE&#9;file://D:/oschina/demo/src/main/java/com/fiberhome/service/aop/LogAdvice.java&#10;@Service&#9;PSI&#9;JAVA://org.springframework.stereotype.Service&#10;ArrayOut&#9;PSI&#9;JAVA://java.lang.ArrayIndexOutOfBoundsException&#10;Spring&#9;FILE&#9;file://D:/oschina/demo/src/test/java/com/ie/demo/spring/SpringTest.java&#10;JdbcDe&#9;FILE&#9;file://D:/oschina/demo/src/main/java/com/fiberhome/demo/jdbc/JdbcDemo.java&#10;Alar&#9;FILE&#9;file://D:/oschina/demo/src/main/java/com/fiberhome/service/AlarmServiceImpl.java&#10;jdbc&#9;FILE&#9;file://D:/oschina/demo/src/main/java/com/fiberhome/demo/jdbc/JdbcDemo.java&#10;J&#9;FILE&#9;file://D:/oschina/demo/src/main/java/com/fiberhome/demo/jdbc/JdbcDemo.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556646179246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556646598087" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JSH_ERP/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -787,7 +789,7 @@
       <workItem from="1555917724150" duration="418000" />
       <workItem from="1555918208558" duration="10398000" />
       <workItem from="1556613489155" duration="4245000" />
-      <workItem from="1556625935723" duration="11773000" />
+      <workItem from="1556625935723" duration="12069000" />
     </task>
     <task id="LOCAL-00001" summary="6">
       <created>1550246708294</created>
@@ -972,7 +974,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="615308000" />
+    <option name="totallyTimeSpent" value="615604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
