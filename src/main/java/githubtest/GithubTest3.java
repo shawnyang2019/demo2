@@ -13,7 +13,7 @@ public class GithubTest3 {
         System.out.println("yangshiying is the best2");
         System.out.println("yangshiying is the best3");
         System.out.println("yangshiying is the best4");
-        System.out.println("yangshiying is the best7");
+        System.out.println("yangshiying is the best6");
 
     }
 }
