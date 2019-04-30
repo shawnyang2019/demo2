@@ -1,0 +1,13 @@
+#Fri Feb 22 19:18:28 CST 2019
+url=jdbc\:mysql\://192.168.0.110\:3306/vv
+jav=1
+maxIdle=2
+jvm=3
+maxActive=2
+maxWait=30000
+username=xww
+minIdle=1
+c++=2
+password=123456
+initialSize=1
+driver=com.mysql.jdbc.Driver
